@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.wrapper{
+  
+  background: url(girl.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:  center ; 
+  height: 159vh;
+  
+  
+ 
+}
+.navbar{
+  height: 80px;
+  width: 100%;
+  background: rgba(0,0,0,0.1);
+}
+.logo{
+  width: 140px;
+  height: auto;
+  padding: 20px 100px;
+  
+}
+.navbar ul{
+  float: right;
+  margin-right: 20px;
+}
+.navbar ul li{
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 4px 8px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+  background: red;
+  border-radius: 2px;
+}
+.wrapper .center{
+  position: absolute;
+  top: 36%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  user-select: none;
+  
+}
+.center h1{
+color:rgba(0, 0, 0, 0.727);
+font-size: 72px;
+font-weight: bold;
+
+text-align:center ;
+
+}
+.center h2{
+color:rgba(0, 0, 0, 0.727);
+font-size: 35px;
+font-weight: bold;
+width: 885px;
+margin-top: 10px;
+text-align: center;
+
+
+}
+ .center .button{
+  
+    margin: 35px 280px;
+    
+ }
+ .button button{
+   height: 50px;
+   width: 150px;
+   font-size: 18px;
+   font-weight: bold;
+   color: #ffb3b3;
+   background: red;
+   border: 1px solid #cc0000;
+   outline: none;
+   cursor: pointer;
+   border-radius: 75px;
+   transition: 0.4s;
+   }
+   .button .btn{
+
+ margin-left: 20px;
+
+   }
+   .button button:hover{
+    background: #cc0000;
+   }
+
+
+  
